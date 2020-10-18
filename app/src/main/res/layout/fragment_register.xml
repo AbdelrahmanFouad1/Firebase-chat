@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp">
+
+    <EditText
+        android:id="@+id/name_et_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:textSize="18sp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/email_et_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:textSize="18sp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/password_et_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:textSize="18sp"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/confirmPassword_et_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textSize="18sp"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/phone_et_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone"
+        android:textSize="18sp"
+        android:inputType="textPhonetic"/>
+
+<!--    <EditText-->
+<!--        android:id="@+id/code_et_register"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="code"-->
+<!--        android:textSize="18sp"-->
+<!--        android:inputType="textPhonetic"/>-->
+
+    <Button
+        android:id="@+id/register_btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/go_btn_register"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Go"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:layout_marginTop="20dp"/>-->
+
+    <TextView
+        android:id="@+id/replace_tv_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Or Login"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
